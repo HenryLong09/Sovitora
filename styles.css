@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans',sans-serif;
+}
+
+.navbar
+{
+    background-color: rgb(0, 0, 0);
+    height: 120px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-style:solid;
+    border-bottom-color: rgb(115, 126, 126);
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    border-width: 20px;
+}
+
+.navbar__container
+{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    
+}
+
+#navbar__logo
+{
+    background-color: #000000;
+    background-image: linear-gradient(to top,#616161 0%,#fffbfa 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 50px;
+    
+}
+
+.fa-gem{
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display:flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item{
+    height: 80px;
+}
+
+.navbar__links{
+    color:whitesmoke;
+    display: flex  ;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height:100%;
+    
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.Main
+{
+    font: serif;
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(92, 229, 247);
+    border-style: outset;
+    border-width: 20px;
+    border-color: #162525;
+    border-radius: 10px;
+    padding: 20px;
+    
+    
+}
+body{
+    text-align: center;
+    background-image: url("images/white-background-3840x2160-modern-decor-simple-aesthetics-27614.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
