@@ -8,7 +8,7 @@
 .navbar
 {
     background-color: #ADB5BD;
-    height: 120px ;
+    height: 80px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +16,14 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    border-style: solid;
+    border-radius: 15px;
     
 }
 
 .navbar__container
 {
+    
     display:flex;
     justify-content: space-between;
     height: 80px;
@@ -46,9 +49,10 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 50px;
-    font-family: 'BBH Bogle', 'Arial Narrow', Arial, sans-serif;
-    -webkit-text-stroke: #000000 1.6px;
-    
+    font-family: 'Regular 400', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 2px;    
+    -webkit-text-stroke-color: #212529;
 }
 
 .fa-gem{
@@ -86,7 +90,7 @@
 
 body{
     text-align: center;
-    background-color: #E9ECEF;
+    background-color: #141414;
     background-size: 80;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -145,7 +149,7 @@ body{
     }
 
     .navbar__menu.active{
-        background: #362417;
+        background: #343A40;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -241,8 +245,10 @@ body{
 }
 
 #main__img{
-    width: 235%;
+    width: 120%;
     height: auto;
+    
+    
     
 }
 
@@ -257,7 +263,20 @@ body{
     -moz-text-fill-color: transparent;
 }
 
-.Main__Content h1{
+
+
+.Main__Content h2{
+    font-size: 3rem;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #ADB5BD 0%,#F8F9FA 100% );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.Main__Content h3{
     font-size: 4rem;
     background-color: #ffffff;
     background-image: linear-gradient(to top, #ADB5BD 0%,#F8F9FA 100% );
@@ -267,3 +286,29 @@ body{
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+.main__button{
+    font-size: 4rem;
+    background-color: #ADB5BD;
+    border-style: solid;
+    border-radius: 15px;
+    background-size: 100%;
+    -webkit-text-fill-color: black;
+    
+    font-family: 'Regular 400', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 10px 20px;
+    text-decoration: none;
+} 
+
+.main__button a{
+    text-decoration: none;
+    background-image: linear-gradient(to top, #212529 0%,#343A40 100% );
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+    
+   
+
