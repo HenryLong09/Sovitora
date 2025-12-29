@@ -226,9 +226,7 @@ body{
 
 
 
-.Main{
-    background-color: #141414;
-}
+
  
 .Main__Container{
     display: grid;
@@ -236,16 +234,16 @@ body{
     align-items: center;
     justify-content: center;
     height: 90vh;
-    background-color: #141414;
+    background-image: linear-gradient(to bottom, #313539 0%,#141414 100% );
     margin: 0 auto; 
     z-index: 1;
-    width: 90%;
-    max-width: 1300px;
+    width: 100%;
+    
     padding: 0 50px;
 }
 
 #main__img{
-    width: 120%;
+    width: 100%;
     height: auto;
     
     
