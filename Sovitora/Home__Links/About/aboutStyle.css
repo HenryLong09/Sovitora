@@ -17,7 +17,8 @@
     top: 0;
     z-index: 999;
     border-style: solid;
-    border-radius: 15px;
+    border-radius: 0 0 6px 6px;
+    
     
 }
 
@@ -224,10 +225,31 @@ body{
     
 }
 
-.HappyImage{
-    width: 1000px;
+
+
+
+.HappyImage {
+    width: 100%;
     height: auto;
-    margin-top: -100px;
-    margin-bottom: -300px;
+    object-fit: cover;
+    
+    
+}
+
+.About__Container {
+    position: sticky;     /* keeps it “stuck” while scrolling */
+    top: 50%;             /* distance from the top of viewport where it starts sticking */
+    right: 50%;        /* centers the container horizontally */
+    width: 90%;           /* responsive width */
+    max-width: 45vw;
+    margin: 2% auto;
+    text-align: left;
+    color: #F8F9FA;
+    
+}
+
+.About__Text {
+    font-size: clamp(10px, 3vw, 45px); /* scales responsively */
+    margin: 0.5rem 0;
 }
 

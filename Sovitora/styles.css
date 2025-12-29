@@ -239,7 +239,7 @@ body{
     background-color: #141414;
     margin: 0 auto; 
     z-index: 1;
-    width: 100%;
+    width: 90%;
     max-width: 1300px;
     padding: 0 50px;
 }
@@ -253,7 +253,7 @@ body{
 }
 
 .Main__Content h1{
-    font-size: 4rem;
+    font-size: clamp(30px, 3vw, 70px);
     background-color: #ffffff;
     background-image: linear-gradient(to top, #ADB5BD 0%,#F8F9FA 100% );
     background-size: 100%;
@@ -266,7 +266,7 @@ body{
 
 
 .Main__Content h2{
-    font-size: 3rem;
+    font-size: clamp(20px, 3vw, 60px);
     background-color: #ffffff;
     background-image: linear-gradient(to top, #ADB5BD 0%,#F8F9FA 100% );
     background-size: 100%;
@@ -277,7 +277,7 @@ body{
 }
 
 .Main__Content h3{
-    font-size: 4rem;
+    font-size: clamp(40px, 3vw, 80px);
     background-color: #ffffff;
     background-image: linear-gradient(to top, #ADB5BD 0%,#F8F9FA 100% );
     background-size: 100%;
@@ -288,7 +288,7 @@ body{
 }
 
 .main__button{
-    font-size: 4rem;
+    font-size: clamp(37px, 3vw, 80px);
     background-color: #ADB5BD;
     border-style: solid;
     border-radius: 15px;
