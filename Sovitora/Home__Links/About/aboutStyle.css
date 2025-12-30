@@ -1,8 +1,10 @@
+
+
 *{
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans',sans-serif;
+    
 }
 
 .navbar
@@ -239,17 +241,27 @@ body{
 .About__Container {
     position: sticky;     /* keeps it “stuck” while scrolling */
     top: 50%;             /* distance from the top of viewport where it starts sticking */
-    right: 50%;        /* centers the container horizontally */
+    right: 55%;        /* centers the container horizontally */
     width: 90%;           /* responsive width */
-    max-width: 45vw;
+    max-width: 40vw;
     margin: 2% auto;
     text-align: left;
-    color: #F8F9FA;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2e2e2e;
+    border-style: solid;
+    border-width: 3px;
+    border-color: whitesmoke;
+    border-radius: 10px;
 }
 
 .About__Text {
-    font-size: clamp(10px, 3vw, 45px); /* scales responsively */
+    font-size: clamp(10px, 3vw, 30px); /* scales responsively */
     margin: 0.5rem 0;
+    background-image: linear-gradient(to top, hsl(0, 0%, 100%) 0%, #e3e3e3 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    padding: 20px;
 }
 
