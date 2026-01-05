@@ -81,7 +81,8 @@
     padding: 0 1rem;
     height:100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
+    font-weight: bolder;
     
 }
 
@@ -117,6 +118,8 @@ body{
     cursor: pointer;
     margin: 5px;
     text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
 }
 
 .button:hover{
