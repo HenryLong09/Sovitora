@@ -258,6 +258,7 @@ body{
 }
 
 .Main__Content h1{
+    
     font-size: clamp(40px, 5vw, 90px);
     background-color: #ffffff;
     background-image: linear-gradient(to top, #ADB5BD 0%,#F8F9FA 100% );
