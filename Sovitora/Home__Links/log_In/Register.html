@@ -63,7 +63,7 @@
         <label for="email">Email:</label>
         <input type="email" id="email" required>
 
-        <label for="password">Password:</label>
+        <label for="password">New Password:</label>
         <input type="password" id="password" required>
 
         <label for="confirmPassword">Confirm Password:</label>
@@ -71,36 +71,11 @@
 
         <div class="error" id="errorMsg"></div>
 
-        <button type="submit">Sign Up</button>
+        <button type="button" id="SubmitForm">Sign Up</button>
     </form>
 </div>
 
-<script>
-    const form = document.getElementById("registerForm");
-    const errorMsg = document.getElementById("errorMsg");
 
-    form.addEventListener("submit", function(e) {
-        e.preventDefault(); // prevent page refresh
-
-        const email = document.getElementById("email").value;
-        const password = document.getElementById("password").value;
-        const confirmPassword = document.getElementById("confirmPassword").value;
-
-        if (password !== confirmPassword) {
-            errorMsg.textContent = "Passwords do not match!";
-            return;
-        }
-
-        // For testing purposes, just log the data
-        console.log("Email:", email);
-        console.log("Password:", password);
-        alert("Data logged to console!");
-        
-        // Reset form
-        form.reset();
-        errorMsg.textContent = "";
-    });
-</script>
-
+<script src="RegisterLogger.js"></script>
 </body>
 </html>

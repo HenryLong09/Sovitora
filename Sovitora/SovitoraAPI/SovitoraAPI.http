@@ -1,0 +1,6 @@
+@SovitoraAPI_HostAddress = http://localhost:5100
+
+GET {{SovitoraAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
